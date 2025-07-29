@@ -14,6 +14,15 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <!-- Projeto de Guisso -->
+    <dependencies>
+        <dependency>
+            <groupId>io.github.guisso</groupId>
+            <artifactId>JanKenPon</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
@@ -28,7 +37,8 @@
                             <goal>copy-resources</goal>
                         </goals>
                         <configuration>
-                            <outputDirectory>C:\\dev\\projects\\javase\\JanKenPonManager\\players</outputDirectory>
+                            <!-- LEMBRAR: Antes de enviar, trocar para: <outputDirectory>C:\\dev\\projects\\javase\\JanKenPonManager\\players</outputDirectory>-->
+                            <outputDirectory>/home/vitor/Área de trabalho/jankenpo/JanKenPonManager-main/players</outputDirectory>
                             <resources>
                                 <resource>
                                     <directory>${project.build.directory}</directory>
