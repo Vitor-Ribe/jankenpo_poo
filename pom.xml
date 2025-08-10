@@ -38,7 +38,7 @@
                         </goals>
                         <configuration>
                             <!-- LEMBRAR: Antes de enviar, trocar para: <outputDirectory>C:\\dev\\projects\\javase\\JanKenPonManager\\players</outputDirectory>-->
-                            <outputDirectory>/home/vitor/Área de trabalho/jankenpo/JanKenPonManager-main/players</outputDirectory>
+                            <outputDirectory>/home/vitor/Área de trabalho/jankenpo/referencia/JanKenPonManager/players</outputDirectory>
                             <resources>
                                 <resource>
                                     <directory>${project.build.directory}</directory>
